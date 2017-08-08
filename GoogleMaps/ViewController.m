@@ -31,6 +31,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    
     //      Location start
     
     locationManager = [[CLLocationManager alloc] init];
@@ -142,6 +143,8 @@
     marker.appearAnimation = kGMSMarkerAnimationPop;
     marker.icon = [GMSMarker markerImageWithColor:[UIColor blackColor]];
     marker.map = mapView;
+    
+//    [self.view addSubview : mapView ];  
 }
 
 

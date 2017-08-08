@@ -13,8 +13,8 @@
 
 @interface ViewController : UIViewController <CLLocationManagerDelegate>
 
-@property (weak, nonatomic) IBOutlet UIView *MapView;
-@property (weak, nonatomic) IBOutlet GMSMapView *GMSMap;
+@property (strong, nonatomic) IBOutlet UIView *MapView;
+@property (strong, nonatomic) IBOutlet GMSMapView *GMSMap;
 
 
 @end
